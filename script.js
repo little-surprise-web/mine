@@ -109,7 +109,7 @@ noBtn.style.top = randomY + "px";
   if (scale <= 0.25) {
     noBtn.style.display = "none";
     if (pleaseText) {
-      pleaseText.textContent = "What will you do now🤭?Just say yes,my girl!😏";
+      pleaseText.textContent = "What will you do now🤭?Just say yes,my baby!😏";
     }
   }
 });
@@ -154,3 +154,4 @@ yesBtn.addEventListener("click", () => {
 
   }, 3000);
 });
+
