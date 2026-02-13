@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap"
+    rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Will you be my valentine? | @coding.stella
+    </title>
+  </head>
+  
+  <body>
+    <!-- PRE-INTRO (audio unlock) -->
+    <div class="pre-intro container">
+      <button class="btn pre-intro-btn js-pre-intro-btn">
+        Hi🙋
+      </button>
+    </div>
+    <!-- INTRO SCREEN -->
+    <div class="intro-container container">
+      <h2 class="intro-text">
+        Hey, I have a question for you 🤭
+      </h2>
+      <button class="btn intro-btn js-intro-btn">
+        OK
+      </button>
+    </div>
+    <div class="question-container container">
+      <video class="local-gif" src="Reply me love.mp4" autoplay muted loop>
+      </video>
+      <h2 class="question">
+        Will you be my valentine?
+      </h2>
+      <div class="choice-area">
+        <p id="please-text" class="please-text">
+          please 🥺
+        </p>
+        <button class="yes-btn btn js-yes-btn">
+          Yes
+        </button>
+        <button class="no-btn btn js-no-btn">
+          No
+        </button>
+      </div>
+    </div>
+    <div class="result-container container">
+      <video class="gif-result" src="Love me.mp4" autoplay loop>
+      </video>
+      <h2 id="result-text">
+        Hehe,I knew it!
+      </h2>
+      <h3 id="valentine-text" class="valentine-text">
+  Happy Valentine's Day,<br>
+  My dear 
+</h3>
+
+      <h4 id="emoji-text" class="valentine-text">
+      😘🫣💖
+      </h4>
+    </div>
+    <div class="cssload-main">
+      <div class="cssload-heart">
+        <span class="cssload-heartL">
+        </span>
+        <span class="cssload-heartR">
+        </span>
+        <span class="cssload-square">
+        </span>
+      </div>
+      <div class="cssload-shadow">
+      </div>
+    </div>
+    <audio id="bg-music" src="cant-help-falling-in-love-violin.mp3" loop>
+    </audio>
+    <script src="script.js">
+    </script>
+  </body>
+
+</html>
